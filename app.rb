@@ -35,6 +35,8 @@ class App < Sinatra::Base
       (@num1 * @num2).to_i
     when "divide"
       (@num1 / @num2).to_i
+    else
+      "Unknown answer"
   end
 end
 
